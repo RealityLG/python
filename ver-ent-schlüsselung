@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+import os
+from this import d
+import pyAesCrypt
+import psutil
+from subprocess import PIPE
+import platform
+dateisource = input("dateisource: ")
+endung = ".exe"
+password = input("password: ")
+schlüsselung = input("Verschlüsseln [1] ; Entschlüsseln [2]")
+p = len(endung)
+
+if schlüsselung=="1":
+    pyAesCrypt.encryptFile(dateisource, dateisource + endung, password)
+    os.remove(dateisource)
+elif schlüsselung=="2":
+    pyAesCrypt.decryptFile(dateisource, dateisource[:-p], password)
+    os.remove(dateisource)
