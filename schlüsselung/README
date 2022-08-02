@@ -1,6 +1,0 @@
-This is my "schlüsselung" project.
-In this project I tested how encryptions on computer works in python.
-First I tried to program a safety version, after that and because I was interested at this time,
-I tried to make a encryption-maleware. Why? Because if you know how hackers attack or how they will 
-attack, you know how to defend your system. It is not a professional programm and it is a very simple
-example, but when you look at the code you will learn a little bit more.
