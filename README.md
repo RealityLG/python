@@ -5,4 +5,4 @@ python-projects
   
   --- schlüsselung
   
-  In the project you can protect you executable files
+  In the project your can protect you executable files
