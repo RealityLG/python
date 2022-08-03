@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import os
-from this import d
 import pyAesCrypt
 import psutil
 from subprocess import PIPE
